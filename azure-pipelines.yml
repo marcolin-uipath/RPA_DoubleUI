@@ -22,7 +22,7 @@ steps:
   inputs:
     testTarget: 'TestProject'
     orchestratorConnection: 'TestSuite'
-    testProjectPath: 'marco.lin\CI/CD Demo_RPA和数据驱动覆盖性测试'
+    testProjectPath: 'marco.lin\Double_CI_CD'
     environment: 'MarcoLin'
     folderName: 'marco.lin'
 
