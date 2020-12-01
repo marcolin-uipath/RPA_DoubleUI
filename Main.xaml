@@ -635,7 +635,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
         <ui:KillProcess ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="终止进程" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="UiDemo" />
-        <ui:StartProcess WorkingDirectory="{x:Null}" Arguments="A" DisplayName="Open 'UIDemo.exe  UiDemo'" FileName="DoubleUI.exe" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="StartProcess_1" />
+        <ui:StartProcess Arguments="{x:Null}" WorkingDirectory="{x:Null}" DisplayName="Open 'UIDemo.exe  UiDemo'" FileName="DoubleUI.exe" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="StartProcess_1" />
         <ui:CommentOut DisplayName="注释掉" sap:VirtualizedContainerService.HintSize="334,51.5" sap2010:WorkflowViewState.IdRef="CommentOut_1">
           <ui:CommentOut.Body>
             <Sequence DisplayName="已忽略的活动" sap:VirtualizedContainerService.HintSize="200,67" sap2010:WorkflowViewState.IdRef="Sequence_9">
