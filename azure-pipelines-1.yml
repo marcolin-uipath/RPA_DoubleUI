@@ -20,7 +20,7 @@ steps:
 - task: UiPathTest@2
   inputs:
     testTarget: 'TestProject'
-    orchestratorConnection: 'TestSuite'
+    orchestratorConnection: 'DoubleUI_CI_CD'
     environment: 'MarcoLin'
     folderName: 'marco.lin'
 
