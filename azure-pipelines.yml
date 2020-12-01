@@ -22,7 +22,6 @@ steps:
   inputs:
     testTarget: 'TestProject'
     orchestratorConnection: 'TestSuite'
-    testProjectPath: 'DoubleUI_CI_CD'
     environment: 'MarcoLin'
     folderName: 'marco.lin'
 
