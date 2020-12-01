@@ -103,7 +103,11 @@
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="数据驱动测试用例" sap:VirtualizedContainerService.HintSize="1239,956" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:String" Name="Total" />
+      <Variable x:TypeArguments="x:String" Name="Total">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String" Value="" />
+        </Variable.Default>
+      </Variable>
       <Variable x:TypeArguments="x:String" Name="TransactionNo" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>

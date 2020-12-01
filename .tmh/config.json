@@ -1,3 +1,11 @@
 {
-  "issueKeyTestcaseValues": {}
+  "issueKeyTestcaseValues": {
+    "142e08ff-7dd9-4521-9883-425f9c375736": "babb9014-a54b-479c-1a6b-08d8959be78a"
+  },
+  "testManagerBasePath": "https://tm-demo.uipath.com/",
+  "defaultProject": {
+    "id": "7621d3ef-1668-4ed0-1b54-08d89598161f",
+    "name": "ML_Azure_Devops",
+    "key": "MLAD"
+  }
 }
